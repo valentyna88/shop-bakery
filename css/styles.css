@@ -116,6 +116,7 @@ ul {
   color: var(--color-primary-light);
   line-height: 1.5;
   text-decoration: none;
+  transition: color 0.3s;
 }
 
 .link:hover {
@@ -124,7 +125,11 @@ ul {
 
 /* Header */
 .header {
-  background-color: lightgray; /* remove */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 32px;
 }
 
 .header-container {
