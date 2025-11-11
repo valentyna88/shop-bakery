@@ -1,0 +1,22 @@
+.contact-section {
+  padding-bottom: 96px;
+}
+
+.contact-container {
+  display: flex;
+  gap: 32px;
+}
+
+.contact-title {
+  margin-bottom: 16px;
+}
+
+.contact-text {
+  color: var(--color-brand-dark);
+}
+
+.contact-map {
+  border-radius: 16px;
+  border: none;
+  flex-shrink: 0;
+}
