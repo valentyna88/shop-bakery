@@ -3,10 +3,13 @@
 @use 'utils/variables';
 @use 'utils/mixins';
 @use 'utils/utils';
+@use 'utils/texts';
 
 @use 'components/buttons';
 @use 'components/links';
 @use 'components/carousel-button';
+@use 'components/chef-card';
+@use 'components/format-card';
 
 @use 'layouts/container';
 @use 'layouts/section';
