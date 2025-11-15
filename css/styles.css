@@ -218,14 +218,12 @@ ul {
   padding: 16px 0;
   background-color: var(--color-brand-normal);
 }
-
-.advantages-list {
+.advantages-section__list {
   display: flex;
   justify-content: space-between;
   gap: 40px;
 }
-
-.advantages-item {
+.advantages-section__item {
   color: var(--color-primary-light);
   font-weight: 300;
   font-size: 20px;
