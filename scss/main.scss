@@ -6,10 +6,11 @@
 @use 'utils/texts';
 
 @use 'components/buttons';
-@use 'components/links';
 @use 'components/carousel-button';
 @use 'components/chef-card';
 @use 'components/format-card';
+@use 'components/input';
+@use 'components/links';
 
 @use 'layouts/container';
 @use 'layouts/section';
@@ -22,4 +23,4 @@
 @use 'layouts/contact-section';
 @use 'layouts/footer';
 @use 'layouts/modal';
-@use 'layouts/forms';
+@use 'layouts/form-terms';
