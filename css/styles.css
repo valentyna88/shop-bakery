@@ -376,7 +376,7 @@ ul {
 }
 .contact-section__button {
   display: block;
-  margin: 0 auto 24px;
+  margin: 0 auto 16px;
 }
 .contact-section__text {
   color: var(--color-brand-dark);
