@@ -478,7 +478,6 @@ ul {
   background-color: rgba(49, 38, 26, 0.4);
   transition: opacity 0.3s, visibility 0.3s;
 }
-
 .backdrop.is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -496,11 +495,17 @@ ul {
   border-radius: 32px;
   overflow-y: auto;
 }
-
-.modal-btn-close {
+.modal__btn-close {
   position: absolute;
   top: 40px;
   right: 40px;
+}
+.modal__form-field {
+  margin-bottom: 32px;
+}
+.modal__button {
+  display: block;
+  margin: 0 auto 24px;
 }
 
 .form-terms {
