@@ -111,17 +111,6 @@ ul {
   background-color: transparent;
 }
 
-.link {
-  color: var(--color-primary-light);
-  line-height: 1.5;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-.link:hover {
-  color: var(--color-brand-normal);
-}
-
 .carousel-button {
   display: flex;
   align-items: center;
@@ -334,24 +323,27 @@ ul {
 .contact-section {
   padding-bottom: 96px;
 }
-
-.contact-container {
+.contact-section__container {
   display: flex;
   gap: 32px;
 }
-
-.contact-title {
+.contact-section__title {
   margin-bottom: 16px;
 }
-
-.contact-text {
+.contact-section__form-field {
+  margin-bottom: 24px;
+}
+.contact-section__button {
+  display: block;
+  margin: 0 auto 24px;
+}
+.contact-section__text {
   color: var(--color-brand-dark);
 }
-
-.contact-map {
+.contact-section__map {
+  flex-shrink: 0;
   border-radius: 16px;
   border: none;
-  flex-shrink: 0;
 }
 
 .footer {
