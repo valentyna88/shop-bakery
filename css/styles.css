@@ -374,10 +374,10 @@ ul {
 }
 
 .traditions-section {
-  padding-top: 96px;
 }
 .traditions-section__container {
   display: flex;
+  align-items: flex-start;
   justify-content: space-between;
   gap: 40px;
 }
@@ -389,6 +389,15 @@ ul {
 }
 .traditions-section__text--limited {
   max-width: 340px;
+}
+.traditions-section__image {
+  display: none;
+  border-radius: 400px 400px 0 0;
+}
+@media screen and (min-width: 768px) {
+  .traditions-section__image {
+    display: block;
+  }
 }
 
 .chefs-section__title {
