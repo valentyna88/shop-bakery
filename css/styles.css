@@ -1,3 +1,12 @@
+:root {
+  --color-primary-dark: #31261a;
+  --color-primary-light: #faf4ea;
+  --color-secondary-dark: #a18268;
+  --color-brand-dark: #465929;
+  --color-brand-normal: #819b57;
+  --color-brand-light: #cfcfbc;
+}
+
 *,
 *::before,
 *::after {
@@ -8,10 +17,16 @@ body {
   color: var(--color-primary-dark);
   background-color: var(--color-primary-light);
   font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 300;
   line-height: 1.5;
   margin: 0;
+}
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 18px;
+    font-weight: 400;
+  }
 }
 
 h1,
@@ -22,6 +37,12 @@ h5,
 h6,
 p {
   margin-top: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 a {
@@ -62,15 +83,6 @@ ul {
   font-weight: 900;
   src: url("../fonts/poppins-v24-latin-900.woff2") format("woff2");
 }
-:root {
-  --color-primary-dark: #31261a;
-  --color-primary-light: #faf4ea;
-  --color-secondary-dark: #a18268;
-  --color-brand-dark: #465929;
-  --color-brand-normal: #819b57;
-  --color-brand-light: #cfcfbc;
-}
-
 .visually-hidden {
   position: absolute;
   left: -10000px;
