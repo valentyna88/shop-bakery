@@ -366,6 +366,12 @@ ul {
     padding: 272px 0;
   }
 }
+@media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero-section {
+    background-image: url(...);
+    background-image: linear-gradient(127deg, rgba(18, 18, 17, 0.78) 0%, rgba(18, 18, 17, 0.6) 63.89%, rgba(18, 18, 17, 0) 100%), url("../images/hero-section-background@2x.jpg");
+  }
+}
 .hero-section__title {
   margin-bottom: 48px;
   color: var(--color-primary-light);
@@ -382,7 +388,6 @@ ul {
   }
 }
 .hero-section__button {
-  display: block;
   margin: 0 auto;
 }
 @media screen and (min-width: 1280px) {
@@ -428,6 +433,12 @@ ul {
 }
 
 .traditions-section {
+  padding-top: 40px;
+}
+@media screen and (min-width: 768px) {
+  .traditions-section {
+    padding-top: 96px;
+  }
 }
 .traditions-section__container {
   display: flex;
@@ -657,7 +668,6 @@ ul {
   margin-bottom: 32px;
 }
 .modal__button {
-  display: block;
   margin: 0 auto 24px;
 }
 
