@@ -1,3 +1,5 @@
+@use '../utils/variables' as *;
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -7,7 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px 0;
+  padding: 20px;
   background-color: rgba(49, 38, 26, 0.4);
   transition: opacity 0.3s, visibility 0.3s;
 
@@ -24,10 +26,14 @@
   max-width: 880px;
   height: 100%;
   max-height: 100%;
-  padding: 128px;
+  padding: 48px;
   background-color: var(--color-primary-light);
   border-radius: 32px;
   overflow-y: auto;
+
+  @media screen and (min-width: $bp-tablet) {
+    padding: 128px;
+  }
 
   &__btn-close {
     position: absolute;
