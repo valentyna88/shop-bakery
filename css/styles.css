@@ -548,7 +548,14 @@ ul {
 }
 .contact-section__container {
   display: flex;
-  gap: 32px;
+  flex-direction: column;
+  gap: 24px;
+}
+@media screen and (min-width: 768px) {
+  .contact-section__container {
+    flex-direction: row;
+    gap: 32px;
+  }
 }
 .contact-section__title {
   margin-bottom: 16px;
@@ -565,8 +572,23 @@ ul {
 }
 .contact-section__map {
   flex-shrink: 0;
+  margin: 0 -24px;
+  height: 176px;
   border-radius: 16px;
   border: none;
+}
+@media screen and (min-width: 768px) {
+  .contact-section__map {
+    margin: auto;
+    width: 320px;
+    height: 500px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .contact-section__map {
+    width: 600px;
+    height: 595px;
+  }
 }
 
 .footer {
