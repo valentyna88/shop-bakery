@@ -336,11 +336,16 @@ ul {
 .header__menu {
   display: none;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 768px) {
   .header__menu {
     display: flex;
     gap: 64px;
     flex-grow: 1;
+    justify-content: flex-end;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .header__menu {
     justify-content: center;
   }
 }
@@ -360,7 +365,7 @@ ul {
   border: none;
   fill: var(--color-primary-light);
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 768px) {
   .header__burger {
     display: none;
   }
