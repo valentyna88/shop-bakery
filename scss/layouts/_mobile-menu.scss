@@ -9,6 +9,21 @@
   transform: translateX(100%);
   transition: transform 0.3s;
 
+  &::before,
+  &::after {
+    position: absolute;
+    bottom: 0;
+    background-repeat: no-repeat;
+    content: '';
+  }
+
+  &::after {
+    width: 180px;
+    height: 240px;
+    right: 0;
+    background-image: url('../images/mobile-menu-bread.png');
+  }
+
   &.is-open {
     transform: translateX(0);
   }

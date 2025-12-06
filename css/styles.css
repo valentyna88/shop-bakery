@@ -734,6 +734,18 @@ ul {
   transform: translateX(100%);
   transition: transform 0.3s;
 }
+.mobile-menu::before, .mobile-menu::after {
+  position: absolute;
+  bottom: 0;
+  background-repeat: no-repeat;
+  content: "";
+}
+.mobile-menu::after {
+  width: 180px;
+  height: 240px;
+  right: 0;
+  background-image: url("../images/mobile-menu-bread.png");
+}
 .mobile-menu.is-open {
   transform: translateX(0);
 }
