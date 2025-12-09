@@ -1,7 +1,7 @@
 @use '../utils/variables' as *;
 
 .advantages-section {
-  padding: 40px 0 20px;
+  padding-top: 40px;
 
   @media screen and (min-width: $bp-tablet) {
     padding: 16px 0;

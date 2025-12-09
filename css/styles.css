@@ -421,7 +421,7 @@ ul {
 }
 
 .advantages-section {
-  padding: 40px 0 20px;
+  padding-top: 40px;
 }
 @media screen and (min-width: 768px) {
   .advantages-section {
