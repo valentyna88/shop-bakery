@@ -167,13 +167,13 @@ ul {
 }
 .chef-card__photo {
   width: 140px;
-  border-radius: 4px 4px 4px 200px;
+  border-radius: 2px 2px 2px 116px;
   box-shadow: -8px 8px 0 0 var(--color-primary-light), -8px 8px 0 2px var(--color-secondary-dark);
 }
 @media screen and (min-width: 1280px) {
   .chef-card__photo {
     width: 240px;
-    border-radius: 2px 2px 2px 116px;
+    border-radius: 4px 4px 4px 200px;
     box-shadow: -16px 16px 0 0 var(--color-primary-light), -16px 16px 0 2px var(--color-secondary-dark);
   }
 }
@@ -522,7 +522,7 @@ ul {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 30px;
 }
 @media screen and (min-width: 768px) {
   .chefs-section__list {
