@@ -1,7 +1,11 @@
 @use '../utils/variables' as *;
 
 .contact-section {
-  padding-bottom: 96px;
+  padding-bottom: 0;
+
+  @media screen and (min-width: $bp-tablet) {
+    padding-bottom: 96px;
+  }
 
   &__container {
     display: flex;

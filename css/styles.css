@@ -239,7 +239,7 @@ ul {
   left: 42px;
 }
 .input__control {
-  padding: 16px 42px;
+  padding: 8px 42px;
   width: 100%;
   font-size: 16px;
   line-height: 1.17;
@@ -259,10 +259,14 @@ ul {
 .input__control:focus::placeholder {
   color: var(--color-primary-dark);
 }
+@media screen and (min-width: 768px) {
+  .input__control {
+    padding: 16px 42px;
+  }
+}
 
 .link {
   color: var(--color-primary-light);
-  line-height: 1.5;
   text-decoration: none;
   transition: color 0.3s;
 }
@@ -557,7 +561,12 @@ ul {
 }
 
 .contact-section {
-  padding-bottom: 96px;
+  padding-bottom: 0;
+}
+@media screen and (min-width: 768px) {
+  .contact-section {
+    padding-bottom: 96px;
+  }
 }
 .contact-section__container {
   display: flex;
