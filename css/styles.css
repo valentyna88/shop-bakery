@@ -766,6 +766,17 @@ ul {
 .modal__button {
   margin: 0 auto 24px;
 }
+.modal::before, .modal::after {
+  position: absolute;
+  background-repeat: no-repeat;
+  content: "";
+}
+.modal::after {
+  width: 180px;
+  height: 240px;
+  right: 0;
+  background-image: url("../images/mobile-menu-bread.png");
+}
 
 .mobile-menu {
   position: fixed;
